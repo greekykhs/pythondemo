@@ -14,7 +14,6 @@ from PyPDF3 import PdfFileWriter, PdfFileReader
 path="D:/N18PersonalWorkspace/pythondemo/pdftoimg/"
 output_folder_path="D:/N18PersonalWorkspace/pythondemo/pdftoimg/output/"
 pdfname=path+"javacollections.pdf"
-
 inputpdf = PdfFileReader(open(pdfname,"rb"))
 maxPages = inputpdf.numPages
 print("Number of pages in PDF="+str(maxPages))
